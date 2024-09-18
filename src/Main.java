@@ -10,5 +10,16 @@ public class Main {
         System.out.println(osbaX.getWiek());
 
         System.out.println(osobaIsia);
+        System.out.println("Liczba utworzonych obiektow "+Uczen.liczbaObiektow);
+        Uczen uczenEmil = new Uczen("Emil","Smalandzki",7,123);
+        System.out.println(uczenEmil);
+        System.out.println("Liczba utworzonych obiektow "+Uczen.liczbaObiektow);
+        Uczen uczen2 = new Uczen("Jas","Nowak",7);
+        System.out.println("Liczba utworzonych obiektow "+Uczen.liczbaObiektow);
+       Uczen uczen3 = new Uczen("Asia","Stasia",7);
+        System.out.println("Liczba utworzonych obiektow "+Uczen.liczbaObiektow);
+        Uczen uczen4 = new Uczen("Basia","Masia",8);
+        System.out.println(uczen4);
+        System.out.println("Liczba utworzonych obiektow "+Uczen.liczbaObiektow);
     }
 }
