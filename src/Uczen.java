@@ -1,4 +1,4 @@
-public class Uczen extends Osoba{
+public class Uczen extends Osoba implements Dyzurny{
     /*
     Uczen to klasa potomna
     Osoba to klasa bazowa
@@ -24,5 +24,10 @@ public class Uczen extends Osoba{
         return "Uczen imie:"+ getImie()+" nazwisko: "+nazwisko +
                 "nrEwidencyjny=" + nrEwidencyjny +
                 "} " ;
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("Wytarłem tablicę");
     }
 }
